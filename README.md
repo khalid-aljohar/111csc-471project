@@ -13,7 +13,6 @@ The project simulates a simple library system where users can:
 An Administrator can:
 - View total revenue generated  
 - Check the most frequent operation (borrow or return)
-- 
 
 Phase 2 upgrades the system using **Object Oriented Programming** by introducing a `Member` class following the provided UML specifications.
 
