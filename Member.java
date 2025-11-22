@@ -11,7 +11,7 @@ public class Member {
 	private String name;
 	private int borrowedCount;
 
-	// user Stats (reset each login)
+	// user/member Stats (reset each login)
 	private int numViewBorrowed;
 	private int numBorrows;
 	private int numReturns;
@@ -105,3 +105,4 @@ public class Member {
 		return name;
 	}
 }
+
