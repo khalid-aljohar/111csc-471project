@@ -2,9 +2,8 @@
 // سعد بن عبدالرحمن الداعج 446105703
 // مشاري بن عايض القحطاني 446106034
 // GitHub: https://github.com/khalid-aljohar/111csc-471project
-package labs;
 public class Member {
-// line 8-29 for attributes
+// line 7-28 for attributes
 
 	// User info
 	private int id;
@@ -27,7 +26,7 @@ public class Member {
 	public static int TotalBorrows = 0;
 	public static int TotalReturns = 0;
 
-// line 31 - 107 for methods
+// line 30 - 106 for methods
 
 	// initialze constructor for the users
 	public Member(int id, String name, int borrowedCount) {
@@ -105,4 +104,5 @@ public class Member {
 		return name;
 	}
 }
+
 
