@@ -123,7 +123,7 @@ public class LibrarySimulator {
 						} else if (Member.TotalReturns > Member.TotalBorrows) {
 							System.out.println("Most frequent operation: RETURN (" + Member.TotalReturns + ")");
 						} else {
-							System.out.println("Tie between BORROW and RETURN.");
+							System.out.println("Tie between BORROW and RETURN. ( " + Member.TotalBorrows + " - " + Member.TotalReturns + " )");
 						}
 						// exit admin menu
 					} else if (achoice.equals("3")) {
@@ -150,4 +150,5 @@ public class LibrarySimulator {
 	}
 
 }
+
 
