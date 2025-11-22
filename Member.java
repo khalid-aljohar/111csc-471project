@@ -27,7 +27,7 @@ public class Member {
 	public static int TotalBorrows = 0;
 	public static int TotalReturns = 0;
 
-// line 31 - 108 for methods
+// line 31 - 107 for methods
 
 	// initialze constructor for the users
 	public Member(int id, String name, int borrowedCount) {
@@ -105,3 +105,4 @@ public class Member {
 		return name;
 	}
 }
+
