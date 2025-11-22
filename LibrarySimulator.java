@@ -3,12 +3,15 @@
 // مشاري بن عايض القحطاني 446106034
 // GitHub: https://github.com/khalid-aljohar/111csc-471project
 
+//import scanner for user input
 import java.util.Scanner;
 
 public class LibrarySimulator {
 
+	//main class identifier
 	public static void main(String[] args) {
-
+		
+		// declearing scanner with varible keyboard 
 		Scanner keyboard = new Scanner(System.in);
 		// creates 3 memebers
 		Member m1 = new Member(1001, "Ali", 0);
@@ -147,3 +150,4 @@ public class LibrarySimulator {
 	}
 
 }
+
