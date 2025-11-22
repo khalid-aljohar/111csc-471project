@@ -10,7 +10,15 @@ The project simulates a simple library system where users can:
 - View session statistics  
 
 
-An **Administrator** can:
+An Administrator can:
 - View total revenue generated  
 - Check the most frequent operation (borrow or return)
+- 
 
+Phase 2 upgrades the system using **Object Oriented Programming** by introducing a `Member` class following the provided UML specifications.
+
+Files Included:
+- `Member.java`  
+  - Contains the Member class with attributes, methods, and system totals.
+- `LibrarySimulator.java`  
+  - Main program handling menus and interactions with Member objects.
